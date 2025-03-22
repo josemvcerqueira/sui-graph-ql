@@ -11,8 +11,8 @@ export const queryNFTObjects = `query($first: Int!, $after: String, $type: Strin
     nodes {
       owner {
         __typename
-        ... on Parent {
-          parent {
+        ... on AddressOwner {
+          owner {
             address
           }
         }
