@@ -7,6 +7,7 @@ import { SuiGraphQLClient } from '@mysten/sui/graphql';
 import util from 'util';
 import { pathOr } from 'ramda';
 import * as fs from 'fs';
+import { chunk } from '@polymedia/suitcase-core';
 
 export const log = (x: any) => console.log(util.inspect(x, false, null, true));
 

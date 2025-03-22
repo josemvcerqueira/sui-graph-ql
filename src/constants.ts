@@ -14,3 +14,6 @@ export const ANIMA_COSMETIC_TYPE =
 
 export const AVATAR_TYPE =
   '0x75cab45b9cba2d0b06a91d1f5fa51a4569da07374cf42c1bd2802846a61efe33::avatar::Avatar';
+
+export const AF_EGG =
+  '0x484932c474bf09f002b82e4a57206a6658a0ca6dbdb15896808dcd1929c77820::egg::AfEgg';

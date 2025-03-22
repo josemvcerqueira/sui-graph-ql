@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "fetch": "tsx ./src/index.ts",
-    "anima": "tsx ./src/anima.ts"
+    "egg": "tsx ./src/af-egg.ts"
   },
   "keywords": [],
   "author": "",
