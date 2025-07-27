@@ -5,13 +5,19 @@
   "main": "index.js",
   "scripts": {
     "fetch": "tsx ./src/index.ts",
-    "egg": "tsx ./src/af-egg.ts"
+    "egg": "tsx ./src/af-egg.ts",
+    "memez": "tsx ./src/memez.ts",
+    "verifier": "tsx ./src/verifier.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@9.1.0+sha512.67f5879916a9293e5cf059c23853d571beaf4f753c707f40cb22bed5fb1578c6aad3b6c4107ccb3ba0b35be003eb621a16471ac836c87beb53f9d54bb4612724",
   "dependencies": {
+    "@firefly-exchange/library-sui": "^2.6.8",
+    "@interest-protocol/interest-aptos-curve": "4.5.0",
+    "@interest-protocol/interest-stable-swap-sdk": "^1.3.0",
+    "@interest-protocol/memez-fun-sdk": "^6.4.1",
     "@mysten/kiosk": "^0.9.22",
     "@mysten/sui": "^1.13.0",
     "@polymedia/suitcase-core": "^0.0.38",
